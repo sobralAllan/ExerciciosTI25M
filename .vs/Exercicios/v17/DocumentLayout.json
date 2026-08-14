@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\exercicios\\exerciciomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|solutionrelative:exercicios\\exerciciomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|c:\\users\\allan.ssilva4\\source\\repos\\exercicios\\exercicios\\exerciciocontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|solutionrelative:exercicios\\exerciciocontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|solutionrelative:exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExercicioControl.cs",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\Exercicios\\ExercicioControl.cs",
+              "RelativeDocumentMoniker": "Exercicios\\ExercicioControl.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\Exercicios\\ExercicioControl.cs",
+              "RelativeToolTip": "Exercicios\\ExercicioControl.cs",
+              "ViewState": "AgIAAJ8AAAAASeTxPiIwwK4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T11:18:50.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExercicioModel.cs",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\Exercicios\\ExercicioModel.cs",
+              "RelativeDocumentMoniker": "Exercicios\\ExercicioModel.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\Exercicios\\ExercicioModel.cs",
+              "RelativeToolTip": "Exercicios\\ExercicioModel.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAwOcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T11:18:49.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\Exercicios\\Program.cs",
+              "RelativeDocumentMoniker": "Exercicios\\Program.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\Exercicios\\Program.cs",
+              "RelativeToolTip": "Exercicios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T11:18:49.21Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

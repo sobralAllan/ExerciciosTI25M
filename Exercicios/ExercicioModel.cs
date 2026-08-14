@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -148,5 +149,88 @@ namespace Exercicios
             return Math.Sqrt(GetNum4());
         }//fim do raiz num 4
 
+        public string Exercicio01(int ano)
+        {
+            if(ano % 4 == 0)
+            {
+                return ano + " é bissexto!";
+            }
+            else
+            {
+                return ano + " não é bissexto!";
+            }
+        }//fim do ano Bissexto
+
+        //Leia um número inteiro e retornar todos os múltiplos menores que 100
+        public string multiplo(int numero)
+        {
+            //Contador
+            int i = 1;//Criando o contador e definindo o ponto de partida
+            string resultado = "";
+            while(i < 100)
+            {
+                if(numero % i == 0)
+                {
+                    resultado += i + "\n";
+                }
+                //Rodar o meu contador
+                i++;
+            }//fim do while
+            return resultado;
+        }//fim do método
+
+        public string multiploFor(int numero)
+        {
+            string resultado = "";
+            for (int i = 1; i < 100; i++)
+            {
+                if(numero % i == 0)
+                {
+                    resultado += i + "\n";
+                }//fim do if
+            }//fim do for
+            return resultado;
+        }//fim do método
+
+        //Leia um número e verifique se ele é palíndromo(ex: 121, 1331, 1441, 0660)
+        public bool EhPalindromo(string palin)
+        {
+            int fim = palin.Length-1;//Meço o tamanho de um conjunto de caracteres
+            int inicio = 0;
+          
+            while (inicio < fim)
+            {
+                if(palin.Substring(inicio,1) != palin.Substring(fim, 1))
+                {
+                    return false;
+                }
+                inicio++;
+                fim--;
+            }//fim do while
+            return true;
+        }//fim do método
+
+        //Solicite ao usuário 10 números e conte os pares e ímpares
+        public void ContarParImpar()
+        {
+            int contarPar   = 0;
+            int contarImpar = 0;
+
+            for(int i = 0; i < 10; i++)
+            {
+                Console.Write(i + 1 + "º número: ");
+                int num = Convert.ToInt32(Console.ReadLine());
+                //Comparações
+                if(num % 2 == 0)
+                {
+                    contarPar++;
+                }
+                else
+                {
+                    contarImpar++;
+                }
+            }//fim do for
+            Console.WriteLine("A quantidade de pares é: " + contarPar + "\nA quantidade de ímpares é: " + contarImpar);
+        }//fim do parImpar
     }//fim da classe
 }//fim do projeto

@@ -64,7 +64,12 @@ namespace Exercicios
                               "5. Potência\n"                     +
                               "6. Potência com Parâmetros\n"      +
                               "7. Raiz\n"                         +
-                              "8. Raiz com Parâmetros\n");
+                              "8. Raiz com Parâmetros\n"          +
+                              "9. Exercício 01\n"                 +
+                              "10. Exercício Multiplo\n"          +
+                              "11. Exercício Multiplo For\n"      +
+                              "12. Exercício Palindromo\n"        +
+                              "13. Exercício ParImpar\n");
             SetOpcao(Convert.ToInt32(Console.ReadLine()));
             Console.Clear();//Limpa o console
         }//fim do menu
@@ -135,6 +140,39 @@ namespace Exercicios
                         //Chamar o método que calcula a Raiz
                         Console.WriteLine("A raiz do primeiro número é: " + this.modelo.Raiz(num1));
                         Console.WriteLine("A raiz do segundo número é: " + this.modelo.Raiz(num2));
+                        break;
+                    case 9:
+                        Console.WriteLine("Informe o ano: ");
+                        int ano = Convert.ToInt32(Console.ReadLine());
+                        //Mostrar o resultado
+                        Console.WriteLine(this.modelo.Exercicio01(ano));
+                        break;
+                    case 10:
+                        Console.WriteLine("Informe um número: ");
+                        int num = Convert.ToInt32(Console.ReadLine());
+                        //Mostrar o resultado da operação
+                        Console.WriteLine(this.modelo.multiplo(num));
+                        break;
+                    case 11:
+                        Console.WriteLine("Informe um número: ");
+                        num = Convert.ToInt32(Console.ReadLine());
+                        //Mostrar o resultado da operação
+                        Console.WriteLine(this.modelo.multiploFor(num));
+                        break;
+                    case 12:
+                        Console.WriteLine("Informe um número: ");
+                        string palin = Console.ReadLine();
+                        if(this.modelo.EhPalindromo(palin) == false)
+                        {
+                            Console.WriteLine("Não é Palíndromo");
+                        }
+                        else
+                        {
+                            Console.WriteLine("É Palíndromo");
+                        }
+                        break;
+                    case 13:
+                        this.modelo.ContarParImpar();
                         break;
                     default:
                         Console.WriteLine("Opção escolhida não é valida!");
