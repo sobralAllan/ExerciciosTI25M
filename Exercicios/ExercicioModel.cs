@@ -15,6 +15,7 @@ namespace Exercicios
         private double num3;
         private double num4;
         private int resultado;
+        public int[] vet;//Criando um vetor
 
         //Método Construtor: Instância as variáveis na memória
         public ExercicioModel()
@@ -232,5 +233,37 @@ namespace Exercicios
             }//fim do for
             Console.WriteLine("A quantidade de pares é: " + contarPar + "\nA quantidade de ímpares é: " + contarImpar);
         }//fim do parImpar
+        
+        //Vetores 
+        //Preencher o vetor
+        public void PreencherVetor()
+        {
+            this.vet = new int[10];//instanciando  
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i + 1 + "ª Posição: ");
+                this.vet[i] = Convert.ToInt32(Console.ReadLine());
+            }//fim do for
+        }//fim do preencherVetor
+
+        public void MostrarVetor()
+        {
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i + 1 + "ª Posição: " + this.vet[i]);
+            }//fim do for
+        }//fim do método
+
+        public string ProcurarNumero(int num)
+        {
+            for(int i = 0; i < 10; i++)
+            {
+                if (vet[i] == num)
+                {
+                    return "O número está na posição: " + (i+1);
+                }
+            }//fim do for
+            return "O " + num + " não foi encontrado no vetor";
+        }//fim do método
     }//fim da classe
 }//fim do projeto

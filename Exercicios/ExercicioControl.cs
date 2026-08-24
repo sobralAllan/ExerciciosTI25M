@@ -69,7 +69,9 @@ namespace Exercicios
                               "10. Exercício Multiplo\n"          +
                               "11. Exercício Multiplo For\n"      +
                               "12. Exercício Palindromo\n"        +
-                              "13. Exercício ParImpar\n");
+                              "13. Exercício ParImpar\n"          +
+                              "14. Exercício Vetor\n"             +
+                              "15. Procurar número no vetor\n");
             SetOpcao(Convert.ToInt32(Console.ReadLine()));
             Console.Clear();//Limpa o console
         }//fim do menu
@@ -173,6 +175,17 @@ namespace Exercicios
                         break;
                     case 13:
                         this.modelo.ContarParImpar();
+                        break;
+                    case 14:
+                        this.modelo.PreencherVetor();
+                        this.modelo.MostrarVetor();
+                        break;
+                    case 15:
+                        this.modelo.PreencherVetor();
+                        Console.WriteLine("Informe um número para procurar no vetor: ");
+                        num = Convert.ToInt32(Console.ReadLine());
+                        //Chamar o método de procura
+                        Console.WriteLine(this.modelo.ProcurarNumero(num));
                         break;
                     default:
                         Console.WriteLine("Opção escolhida não é valida!");

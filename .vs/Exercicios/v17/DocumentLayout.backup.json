@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\exercicios\\exerciciomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|c:\\users\\allan.ssilva4\\source\\repos\\exercicios\\exercicios\\exerciciomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|solutionrelative:exercicios\\exerciciomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|c:\\users\\allan.ssilva4\\source\\repos\\exercicios\\exercicios\\exerciciocontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\exercicios\\exerciciocontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09CEBA20-C149-4B3D-A8F6-862FB155276F}|Exercicios\\Exercicios.csproj|solutionrelative:exercicios\\exerciciocontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Exercicios\\ExercicioControl.cs",
               "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\Exercicios\\ExercicioControl.cs",
               "RelativeToolTip": "Exercicios\\ExercicioControl.cs",
-              "ViewState": "AgIAAJkAAAAASeTxPiIwwK8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAmwLwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-07T11:18:50.68Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Exercicios\\ExercicioModel.cs",
               "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Exercicios\\Exercicios\\ExercicioModel.cs",
               "RelativeToolTip": "Exercicios\\ExercicioModel.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAAAAwN0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAD4v/QAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-07T11:18:49.99Z",
               "EditorCaption": ""
